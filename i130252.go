@@ -1,4 +1,4 @@
-package main
+package i130252
 
 import "fmt"
 
@@ -16,7 +16,8 @@ func display(a []string, message string) {
 
 	fmt.Println()
 }
-func main() {
+//Test will check the functionality of the package
+func Test() {
 	strArrr := []string{"khursand", "kousar", "fastian", "concurrent", "sir"}
 
 	display(strArrr, "\t\tThe array before removing \n")
